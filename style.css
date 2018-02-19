@@ -1,15 +1,24 @@
 body {
 	background-color: #DFE2DB;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	font-family: 'Roboto', sans-serif;
 }
 
 button {
 	width: 170px;
 	height: 35px;
-	align-self: center;
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
 	background-color: #751b1b;
 	border: none;
 	color: #fff;
@@ -23,15 +32,22 @@ button:hover {
 }
 
 h1 {
-	align-self: center;
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
 }
 
 main {
 	background-color: #fff;
 	border: 1px rgba(33,33,33,0.5) solid;
 	border-radius: 3px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	margin-top: 50px;
 	min-height: 350px;
 	min-width: 620px;
